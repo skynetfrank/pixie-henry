@@ -1,8 +1,5 @@
 /* 
-
-Tooplate 2114 Pixie
-
-https://www.tooplate.com/view/2114-pixie
+Pixie Proyecto Henry
 
 */
 
@@ -142,7 +139,7 @@ li:hover{
 /* Banner Style */
 .banner {
   
-  background-image: url(../images/pixie-home.jpg);
+  background-image: url(../images/banner-decobb.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0px;
@@ -173,8 +170,10 @@ li:hover{
 /* Featured Style */
 .featured-items {
   margin-bottom: 70px;
+ 
 }
 .featured-item {
+  
   border-radius: 5px;
   border: 1px solid #eee;
   padding: 10px 20px 10px 20px;
@@ -185,6 +184,7 @@ li:hover{
 }
 .featured-item img {
   width: 100%;
+
 }
 .featured-item h4 {
   font-size: 17px;
