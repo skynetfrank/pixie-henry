@@ -48,7 +48,7 @@ a {
   font-weight: 700;
   color: #1e1e1e;
   margin-top: 10px;
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 /* Pre Header Style */
@@ -96,14 +96,11 @@ a {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
   color: blueviolet;
-	
 }
 
-li:hover{
-	background-color: rgb(162, 240, 240);
-
+li:hover {
+  background-color: rgb(162, 240, 240);
 }
-
 
 .navbar:after {
   width: 100%;
@@ -138,7 +135,6 @@ li:hover{
 }
 /* Banner Style */
 .banner {
-  
   background-image: url(../images/banner-decobb.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,10 +166,8 @@ li:hover{
 /* Featured Style */
 .featured-items {
   margin-bottom: 70px;
- 
 }
 .featured-item {
-  
   border-radius: 5px;
   border: 1px solid #eee;
   padding: 10px 20px 10px 20px;
@@ -184,7 +178,6 @@ li:hover{
 }
 .featured-item img {
   width: 100%;
-
 }
 .featured-item h4 {
   font-size: 17px;
@@ -317,18 +310,17 @@ li:hover{
 .footer .social-icons {
   background-color: #1e1e1e;
   color: #fff;
-  display: flex;  
- align-items: center;
-    margin-bottom: 60px;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  justify-content: center;
 }
 
 .footer .social-icons a {
   width: 32px;
   height: 32px;
   color: black;
- 
+
   background-color: #aaa;
   text-align: center;
   display: inline-block;
@@ -339,9 +331,9 @@ li:hover{
   margin-right: 5px;
 }
 
-.footer .social-icons span{
+.footer .social-icons span {
   padding: 10px;
- text-align: center;
+  text-align: center;
   font-weight: bolder;
   font-size: 20px;
 }
@@ -763,17 +755,33 @@ li:hover{
     z-index: 9999;
   }
 
-	#navbarResponsive { 
-  left: 50%;  
+  #navbarResponsive {
+    left: 50%;
+  }
+
+  .featured-page {
+    margin-top: 20px;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+
+.footer .social-icons {
+ flex-direction: column;
+ font-size: 15px;
+  align-items: flex-start;
 }
 
-.featured-page{
-	margin-top: 20px;
+.footer .social-icons span {
+ 
+  font-size: 15px;
 }
 
-.nav-link{
-	padding: 0;
-}
+
+
+
 
 
 }
