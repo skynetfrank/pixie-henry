@@ -1,6 +1,7 @@
 jQuery(document).ready(function ($) {
 	"use strict";
 
+	
 
 
 	$('.owl-carousel').owlCarousel({
@@ -65,3 +66,8 @@ jQuery(document).ready(function ($) {
 	});
 
 });
+
+window.addEventListener('load',()=>{
+	console.log("inside load")
+	window.scrollTo(0, 0);
+})
