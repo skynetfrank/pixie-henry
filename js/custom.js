@@ -33,6 +33,7 @@ jQuery(document).ready(function ($) {
 	});
 
 	$(window).smartresize(function () {
+		console.log("resized");
 		$container.isotope({
 			columnWidth: '.col-sm-3'
 		});
@@ -69,5 +70,6 @@ jQuery(document).ready(function ($) {
 
 window.addEventListener('load',()=>{
 	console.log("inside load")
+	window.location.reload();
 	window.scrollTo(0, 0);
 })
