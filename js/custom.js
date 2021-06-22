@@ -29,6 +29,7 @@ jQuery(document).ready(function ($) {
 	/* activate jquery isotope */
 	var $container = $('.posts').isotope({
 		itemSelector: '.item',
+		layoutMode: 'fitRows',
 		isFitWidth: true
 	});
 
