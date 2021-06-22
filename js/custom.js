@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 	"use strict";
 
-	
+
 
 
 	$('.owl-carousel').owlCarousel({
@@ -33,7 +33,6 @@ jQuery(document).ready(function ($) {
 	});
 
 	$(window).smartresize(function () {
-		console.log("resized");
 		$container.isotope({
 			columnWidth: '.col-sm-3'
 		});
